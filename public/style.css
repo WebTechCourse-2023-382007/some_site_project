@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 16px;
+  background-color: rgb(51, 53, 51);
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+}
+
+ul {
+  list-style-type: lower-roman;
+}
+
+li {
+  font-size: 2rem;
+}
+
+li::marker {
+  color: rgb(103, 104, 106);
+}
+
+a:link {
+  color: rgb(143, 227, 255);
+}
+
+a:visited {
+  color: rgb(255, 143, 255);
+}
